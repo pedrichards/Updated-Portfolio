@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>About | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="row">
+    <header id="masthead">
+      <div class="container">
+        <div class="justify-content-sm-center">
+          <a href="index.html" id="logo">Peter Richards</a>
+        </div>
+        <div class="justify-content-sm-center">
+          <nav class="navbar">
+            <input type="button" onClick="document.getElementById('intro').scrollIntoView();">About</input>
+            <input type="button" onClick="document.getElementById('portfolio').scrollIntoView();">Portfolio</input>
+            <input type="button" onClick="document.getElementById('contact').scrollIntoView();">Contact</input>
+            <!-- <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a> -->
+          </nav>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <div class="row justify-content-md-center" id="intro">
+    <div id="main-container" class="container">
+      <section class="main-section">
+        <h1>About Me</h1>
+
+        <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
+          porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa.
+          Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae
+          sollicitudin consectetur.</p>
+
+        <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id
+          eros iaculis, pulvinar quam eget, egestas mauris.</p>
+
+        <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et
+          mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+      </section>
+
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center" id="portfolio">
+    <div id="main-container" class="container">
+      <section class="main-section">
+        <h1>Portfolio</h1>
+        <div class="row">
+          <div class=col-sm-6>
+            <img class="img-fluid" src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+
+            <h3 class="externallink"><a href="https://pedrichards.github.io/Word-Guess-Game/">Word Guess</a></h3>
+          </div>
+          <div class=col-sm-6>
+            <img class="img-fluid" src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+            <h3 class="externallink"><a href="https://pedrichards.github.io/unit-4-game/">Crystal Finder Game</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class=col-sm-6>
+            <img class="img-fluid" src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+            <h3 class="externallink"><a href="https://pedrichards.github.io/TriviaGame/">Trivia Game</h3>
+          </div>
+          <div class=col-sm-6>
+            <img class="img-fluid" src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+            <h3 class="externallink"><a href="https://pedrichards.github.io/GiphyApp/">Giphy App</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class=col-sm-6>
+            <img class="img-fluid" src="assets/images/technics-q-c-640-480-9.jpg" alt="Train Scheduler">
+
+            <h3 class="externallink"><a href="https://pedrichards.github.io/TrainActivity/">Train Scheduler</h3>
+          </div>
+          <div class=col-sm-6>
+            <img class="img-fluid" src="assets/images/recipesoftheworld.jpg" alt="Recipes of The World">
+
+            <h3 class="externallink"><a href="https://edestiny7.github.io/SickGroup//">Recipes of the World</h3>
+          </div>
+        </div>
+        <div></div>
+
+      </section>
+
+    </div>
+  </div>
+
+
+  <div class="row justify-content-md-center" id="contact">
+    <div id="main-container" class="container">
+      <section class="main-section">
+        <h1>Contact</h1>
+
+        <form id="contact-form">
+          <ul>
+            <li>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required="required"></textarea>
+            </li>
+          </ul>
+          <input type="submit">
+        </form>
+
+      </section>
+
+    </div>
+  </div>
+
+  </div class="row">
+  <footer>
+    <div class="container">
+      Copyright &copy;
+    </div>
+  </footer>
+  </div>
+</body>
+
+</html>
