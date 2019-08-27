@@ -35,7 +35,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #2e1749;
 }
 
 h1 {
@@ -51,11 +51,11 @@ h3 {
 }
 
 .externallink a:link { 
-  color: #4aaaa5;
+  color: #2e1749;
   text-decoration: none; 
 }
 .externallink a:active {
-  color: #4aaaa5;
+  color: #2e1749;
   text-decoration: none;
 }
 
@@ -127,6 +127,15 @@ h3, h2 {
 }
 
 /* main */
+#intro {
+  transform: rotate(10deg);
+  margin-top: 90px !important;
+  /* height: 200px; */
+}
+
+#intro2 {
+  transform: rotate(-20deg);
+}
 
 #main-container {
   padding-top: 130px;
@@ -173,7 +182,7 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background: #2e1749;
   border-bottom: 0;
 }
 
@@ -221,6 +230,6 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #2e1749;
   border: 0 none;
 }
