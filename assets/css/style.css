@@ -65,7 +65,7 @@ h3 {
   position: fixed;
   z-index: 99;
   width: 100%;
-  margin: 0 0 30px;
+  margin: 0 0;
   overflow: auto;
   color: #ffffff;
   background: #ffffff;
@@ -83,7 +83,7 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #2e1749;
 }
 
 nav {
@@ -115,7 +115,7 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #2e1749;
   height: 50px;
 }
 
@@ -135,6 +135,10 @@ h3, h2 {
 
 #intro2 {
   transform: rotate(-20deg);
+}
+
+#contact {
+  transform: rotate(10deg);
 }
 
 #main-container {
